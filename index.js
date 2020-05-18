@@ -49,3 +49,15 @@ function test(n) { // initial function test
     return n * test(n-1) // returns value of factorial (n)
 }
 console.trace(test(3)) // output test function 
+
+class myCar {
+    constructor(car,price,model, year){ // For example car, price, model
+        this.car = car
+        this.price = price
+        this.model = model
+        this.year = year
+    }
+}
+
+var car = new myCar("Holden", "$12,000", "Commodore", 2004)
+console.log(car)
