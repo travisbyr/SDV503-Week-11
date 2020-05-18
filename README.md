@@ -15,10 +15,10 @@ The main differences between the two is that Linked lists are most efficent at s
 ## Javascript Linked Lists
 ## Linear time ----- because the elements need to be shifted over, its like a queue system
 Linked Lists are an effective way at storing data. The organisation of linked lists is not defined by the way that data is given. Instead it is setup as a linear collection with each element pointing to the next element.
+## Diagram goes here
+As shown in the above diagram the head pointer defines the first element of the data strcture (which is the head node). THe node link is the location of the next node, where as the node info is the data being stored. The last element has a node link value of 'null' meaning that it is the last element of the linear sequence as their is not a location for the next node. Linked lists are often used for queues and can be releated to real life. When A large amount of people are waiting in a queue, you are the node information, with the node link being the value of the next node location. The difference in this queue, is that the data is organised in an un neibouring order, meaning that the position that you are in the line is unknown.  
 
-As shown in the above diagram the head pointer defines the first element of the data strcture (which is the head node). THe node link is the location of the next node, where as the node info is the data being stored. The last element has a node link value of 'null' meaning that it is the last element of the linear sequence as their is not a location for the next node.
-
-The advantage of using linked lists is that it efficently adds data to a struture. As the location of the data is does not matter for Linked Lists as it creates a linear collection of the data, data can easily be added to the collection. Although a disadvtange is that the location of data can be impractical as their is not a value to reoresent the index of the location. Instead to find an element in a Linked list you need to use use a recursive function, to iterate throughout the whole list to retrieve or find an element. 
+The advantage of using linked lists is that it efficently adds data to a struture. As the location of the data is does not matter for Linked Lists as it creates a linear collection of the data, data can easily be added to the collection, requiring less compute effort than a hash table. Although a disadvtange is that the location of data can be impractical as their is not a value to reoresent the index of the location. Instead to find an element in a Linked list you need to use use a recursive function, to iterate throughout the whole list to retrieve or find an element. 
 
 ## Javascript Recursion
 
