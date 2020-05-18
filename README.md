@@ -1,6 +1,5 @@
 # SDV503-Week-11 Class Activity
-// Create .js file for each execution of code
-// expects 2 js files
+
 ## Javascript Data Structure Stores
 A javascript data struture is a container that stores data in a specific way that is defined by the layout chosen. There are many layouts to choose from, some data sturecture stores can be more efficent that others. Although, the performance of data structures vary depending on the data given. Certain data structure stores are more suitaed to particular data types, making them more efficent and effective to use. Each data structure has different way of ,recieving, sending and organising data.  
 
@@ -9,7 +8,10 @@ The two main data stuructures in javascript are Linked lists and Hash tables. Al
 Another main data structure is hash tables. Hash tables is a data structure that stores large amount of data by mapping a key value to each element. Upon retrieving the data, hash tables associated a key value to each element, representing an unique index of the item in the data strture. By giving the elements in the data  a key pair, data can efficently be found and gathered, as the key will return the location and address of an element.
 The main data sturctures used are Linked lists and Hash tables. Hash tables are used greatly for the internet as it very efficent and locating and gathering data.
 
-## ADD PSEUDOCODES CREATED
+![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/linkedListPsu.png)
+![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/recursivePsu.png)
+
+## Write about PSUEDOCODE
 The main differences between the two is that Linked lists are most efficent at storing and recieving data. They offer an efficent way at recieving and storing data in a sequence. While Hash tables are most efficent at finding and gathering data. Hash tables offer and efficent way at locating data by using a unique key value that targets specific data.
 
 ## Javascript Linked Lists
