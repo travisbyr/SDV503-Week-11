@@ -20,9 +20,14 @@ As shown in the above diagram the head pointer defines the first element of the 
 
 The advantage of using linked lists is that it efficently adds data to a struture. As the location of the data is does not matter for Linked Lists as it creates a linear collection of the data, data can easily be added to the collection, requiring less compute effort than a hash table. Although a disadvtange is that the location of data can be impractical as their is not a value to reoresent the index of the location. Instead to find an element in a Linked list you need to use use a recursive function, to iterate throughout the whole list to retrieve or find an element. 
 
+## ADD CODE and PSUEDOCODE HERE
+
+Shown above is an exampled of linked lists created using a class. 
+
 ## Javascript Recursion
 
 
 ## References (convert to APA format) add Ali as colabarator
 https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
 https://people.engr.ncsu.edu/efg/210/s99/Notes/LinkedList.1.html
+https://humanwhocodes.com/blog/2019/01/computer-science-in-javascript-linked-list/

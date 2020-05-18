@@ -61,22 +61,3 @@ class myCar {
 
 var car = new myCar("Holden", "$12,000", "Commodore", 2004)
 console.log(car)
-
-
-
-class LinkedListNode {
-    constructor(data) {
-        this.data = data;
-        this.next = null;
-    }
-}
-// create the first node
-const head = new LinkedListNode(12);
-
-// add a second node
-head.next = new LinkedListNode(99);
-
-// add a third node
-head.next.next = new LinkedListNode(37);
-
-console.log(head)
