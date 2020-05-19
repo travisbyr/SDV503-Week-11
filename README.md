@@ -3,15 +3,21 @@
 ## Javascript Data Structure Stores
 A javascript data struture is a container that stores data in a specific way that is defined by the layout chosen. There are many layouts to choose from, some data sturecture stores can be more efficent that others. Although, the performance of data structures vary depending on the data given. Certain data structure stores are more suitaed to particular data types, making them more efficent and effective to use. Each data structure has different way of ,recieving, sending and organising data.  
 
-The two main data stuructures in javascript are Linked lists and Hash tables. Although there are a a lot of other data sturcture stores, most of the other data structure stores only extended the concept of either linked lists or hash tables. Linked lists is a data sturture that takes a large amount of data and stores itas a linear collection. The order of the data is linear, meaning that the organisation of data given is not decided by physical place of the data. Instead of this, each element of the data points to the next element, with the last element pointing to 'null' as their is no other element to point towards. Each elements in the linked lists become a node, all the data creating a sequence.
+The two main data stuructures in javascript are Linked lists and Hash tables. Although there are a a lot of other data sturcture stores, most of the other data structure stores are only an extension of the concept from either linked lists or hash tables. Linked lists is a data sturture that takes a large amount of data and stores itas a linear collection. The order of the data is linear, meaning that the organisation of data given is not decided by physical place of the data. Instead of this, each element of the data points to the next element, with the last element pointing to 'null' as their is no other element to point towards. Each elements in the linked lists become a node, all the data creating a sequence.
 
 Another main data structure is hash tables. Hash tables is a data structure that stores large amount of data by mapping a key value to each element. Upon retrieving the data, hash tables associated a key value to each element, representing an unique index of the item in the data strture. By giving the elements in the data  a key pair, data can efficently be found and gathered, as the key will return the location and address of an element.
 The main data sturctures used are Linked lists and Hash tables. Hash tables are used greatly for the internet as it very efficent and locating and gathering data.
 
+### Linked list Pseudocode
 ![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/linkedListPsu.png)
-![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/recursivePsu.png)
 
-## Write about PSUEDOCODE
+The above pseudocode demonstrates how linked lists can be added into javascript.
+
+![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/hashTableEx.png)
+(Mehla, 2018).
+
+The above pseudocode demonstrates how hash tables work in javascript. The above code shows how an element is added to a hash table and where it is located.
+
 The main differences between the two is that Linked lists are most efficent at storing and recieving data. They offer an efficent way at recieving and storing data in a sequence. While Hash tables are most efficent at finding and gathering data. Hash tables offer and efficent way at locating data by using a unique key value that targets specific data.
 
 ## Javascript Linked Lists
@@ -38,6 +44,8 @@ An advantage of using javascript recursive is that you can define the amount of 
 An example of a recrusive algorithm in the real life is using public transport. For example, when taking the public bus, you are given the option to press a button which will notify the bus driver to stop at the nearest bus stop. If you are approaching the bus stop that you stop at, press the button and exit the bus when it arrives at the bus stop, else staty on the bus. This is a recursive loop that is similar to the recursive example given above. Where as the number is the amount of bus stop away from the bus stop you are getting off at. 
 
 ## References
+Mehla G. (2018, April). *Data Structures with JavaScript — Chapter Four — Hash tables — I.* Medium.
+https://medium.com/dev-blogs/ds-with-js-hash-table-4715c94083d2
 
 freeCodeCamp. (2018, July). *The top data structures you should know for your next coding interview*
 https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
