@@ -33,10 +33,22 @@ Javascript recursion is used in functions and for iterative purposes. Recursion 
 
 As shown above, the for loop iterates as long as the number given in the parameter is greater than 0. If thisis true, return the current number and remove 1 number from the number given. If the current number is equals 0, then stop the loop. 
 
-An advantage of using javascript recursive is that you can define the amount of times a statement is itterated. This allows for effective use of code as recursive enables you to reduce the amount of duplicate code you have. If you have many statements that will be reapeated many times, then instead of re-writing them you could use a for loop. A disadvtange of javascript recursive is that it uses more memory. With each recursive call of a function, data has to be stored in a stack (a data structure similar to linked lists) which is like an array, but only adds and removes elements from it. As data is being added to the call stack, this decreases the time it takes to complete each iteration as each recursion requires more compute power to go through the call stack.    
+An advantage of using javascript recursive is that you can define the amount of times a statement is itterated. This allows for effective use of code as recursive enables you to reduce the amount of duplicate code you have. If you have many statements that will be reapeated many times, then instead of re-writing them you could use a for loop. A disadvtange of javascript recursive is that it uses more memory. With each recursive call of a function, data has to be stored in a stack (a data structure similar to linked lists) which is like an array, but only adds and removes elements from it. As data is being added to the call stack, this decreases the time it takes to complete each iteration as each recursion requires more compute power to go through the call stack. Stack also is a data structure store that can be used with recursion to find data. Stack is a great way to use recursion as it has a data strtcture that is refered to as being 'last in first out'. This is because the last element allows the recurrsion to know what to return when the function has to return. Stack allows functions to store and return addresses within the call stack
 
-## References (to convert to APA format)
+An example of a recrusive algorithm in the real life is using public transport. For example, when taking the public bus, you are given the option to press a button which will notify the bus driver to stop at the nearest bus stop. If you are approaching the bus stop that you stop at, press the button and exit the bus when it arrives at the bus stop, else staty on the bus. This is a recursive loop that is similar to the recursive example given above. Where as the number is the amount of bus stop away from the bus stop you are getting off at. 
+
+## References
+
+freeCodeCamp. (2018, July). *The top data structures you should know for your next coding interview*
 https://www.freecodecamp.org/news/the-top-data-structures-you-should-know-for-your-next-coding-interview-36af0831f5e3/
 https://people.engr.ncsu.edu/efg/210/s99/Notes/LinkedList.1.html
+
+NCSU COE People. (n.d.). *Linked Lists -- Part 1 The Basics.*
+https://people.engr.ncsu.edu/efg/210/s99/Notes/LinkedList.1.html
+
+Human Who Codes. (2019, January). *Computer science in JavaScript: Linked list.*
 https://humanwhocodes.com/blog/2019/01/computer-science-in-javascript-linked-list/
+
+Open4Tech. (n.d.). *Array vs. Linked List vs. Hash Table.*
 https://open4tech.com/array-vs-linked-list-vs-hash-table/
+
