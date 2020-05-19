@@ -1,20 +1,17 @@
 class linkedList {
-    constructor(data) {
-        this.data = data;
-        this.next = null;
-    }
+  constructor(info) {
+    this.info = info;
+    this.link = null;
+  }
 }
-
 // Create the first node
-const head = new linkedList(12);
-
+var head = new linkedList(10);
 // Adding a second node
-head.next = new linkedList(99);
-console.log(head)
+head.link = new linkedList(20);
+console.log(head);
 // Adding a third node
-head.next.next = new linkedList(37);
-
-console.log(head)
+head.link.link = new linkedList(50);
+console.log(head);
 
 /*
 
