@@ -28,7 +28,6 @@ As shown in the above diagram the head pointer defines the first element of the 
 
 The advantage of using linked lists is that it efficently adds data to a struture. As the location of the data is does not matter for Linked Lists as it creates a linear collection of the data, data can easily be added to the collection, requiring less compute effort than a hash table. Although a disadvatange is that the location of data can be impractical as the data is fast at being transveral like hash tables. Instead to find an element in a Linked list you need to use use a recursive function, to iterate throughout the whole list to retrieve or find an element. 
 ![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/linkedListEx1.png)
-![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/linkedListPsu.png)
 
 Shown above is an example of linked lists created using a class. By using a class I am able to recreate a linked list, showing how data is added. When data is added to a linked list created by an object, it becomes the last element, becoming the node tail automatically. 
 
