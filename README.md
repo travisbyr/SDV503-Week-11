@@ -13,6 +13,7 @@ The main data sturctures used are Linked lists and Hash tables. Hash tables are 
 
 The above pseudocode demonstrates how linked lists can be added into javascript.
 
+### Hash table Pseudocode
 ![Image of Code](https://github.com/travisbyr/SDV503-Week-11/blob/master/hashTableEx.png)
 (Mehla, 2018).
 
